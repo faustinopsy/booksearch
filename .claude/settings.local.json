@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir c:\\\\Users\\\\rodrigo.sfaustino\\\\booksearch)",
+      "Bash(npm install *)",
+      "Bash(node node_modules/vite/bin/vite.js build)",
+      "Bash(node node_modules/vite/bin/vite.js --port 5173)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:5173/booksearch/)"
+    ]
+  }
+}
