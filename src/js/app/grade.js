@@ -8,7 +8,7 @@ export function configurarGrade() {
 
   grade.addEventListener('click', e => {
     const btnFav = e.target.closest('[data-fav]');
-    if (btnFav) { handleToggleFavorito(btnFav.dataset.fav, e); return; }
+    if (btnFav) { handleToggleFavorito(btnFav.dataset.fav, btnFav); return; }
 
     const card = e.target.closest('.card-livro');
     if (!card) return;
